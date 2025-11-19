@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>R Kishore Kumar</title>
+  <link rel="icon" type="image" href="./img/profile.jpg"/>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="top-bar enhanced-header">
+    <div class="name-section">
+      <h1><span class="highlight">R Kishore</span> Kumar</h1>
+      <p class="title-line">Full-Stack Developer | AI/ML Enthusiast | Data Analyst</p>
+    </div>
+    <button class="nav-toggle" id="navToggle">
+      <i class="fa fa-bars"></i>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a class="linkedin-btn" href="https://www.linkedin.com/in/kishore-kumar-7447932b5" target="_blank">
+        <i class="fa fa-linkedin"></i> LinkedIn
+      </a>
+      <button id="themeToggle" class="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>Hello, I'm Kishore!</h2>
+        <h3>I am a <span class="typed-text" id="typedText"></span></h3><br>
+
+        <p>
+          I'm a Computer Science and Engineering student at VIT Chennai, with strong experience in Full-Stack
+          development, AI/ML, and automated data engineering. I enjoy building real-world systems—ranging from
+          financial data extraction tools to LSTM-based attention monitoring models—focusing on clean engineering,
+          optimization, and practical machine learning.
+        </p>
+
+        <p>
+          Outside of tech, I’m passionate about <b>photography, cinematography, and creative video editing</b>.
+          I led the official photography team during major campus events, managing a 15-member crew for visual
+          coverage of 40+ events. Capturing moments, editing visuals, and crafting cinematic stories have shaped
+          my creativity, attention to detail, and design thinking—skills that blend naturally into my technical work.
+        </p>
+
+        <a href="./assets/KishoreResume.pdf" download class="resume-btn">Download CV</a>
+      </div>
+
+      <div class="about-image">
+        <img src="./assets/profile.JPG" alt="Kishore Kumar" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="content-section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills">
+  
+        <!-- Frontend -->
+        <div class="skill">
+          <h3><i class="fa fa-code"></i> Frontend</h3>
+          <div class="icon-grid">
+            <div class="icon-wrapper" title="HTML">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="tech-icon" alt="HTML">
+              <span>HTML</span>
+            </div>
+            <div class="icon-wrapper" title="CSS">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="tech-icon" alt="CSS">
+              <span>CSS</span>
+            </div>
+            <div class="icon-wrapper" title="JavaScript">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="tech-icon" alt="JavaScript">
+              <span>JavaScript</span>
+            </div>
+            <div class="icon-wrapper" title="React Native">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="tech-icon" alt="React Native">
+              <span>React Native</span>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Backend -->
+        <div class="skill">
+          <h3><i class="fa fa-server"></i> Backend</h3>
+          <div class="icon-grid">
+            <div class="icon-wrapper" title="Python">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="tech-icon" alt="Python">
+              <span>Python</span>
+            </div>
+            <div class="icon-wrapper" title="Node.js">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="tech-icon" alt="Node.js">
+              <span>Node.js</span>
+            </div>
+            <div class="icon-wrapper" title="Java">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="tech-icon" alt="Java">
+              <span>Java</span>
+            </div>
+            <div class="icon-wrapper" title="Flask">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" class="tech-icon" alt="Flask">
+              <span>Flask</span>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Database -->
+        <div class="skill">
+          <h3><i class="fa fa-database"></i> Database</h3>
+          <div class="icon-grid">
+            <div class="icon-wrapper" title="MySQL">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="tech-icon" alt="MySQL">
+              <span>MySQL</span>
+            </div>
+            <div class="icon-wrapper" title="SQLite">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" class="tech-icon" alt="SQLite">
+              <span>SQLite</span>
+            </div>
+            <div class="icon-wrapper" title="MongoDB">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="tech-icon" alt="MongoDB">
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+  
+        <!-- AI/ML -->
+        <div class="skill">
+          <h3><i class="fa fa-brain"></i> AI/ML</h3>
+          <div class="icon-grid">
+            <div class="icon-wrapper" title="TensorFlow">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" class="tech-icon" alt="TensorFlow">
+              <span>TensorFlow</span>
+            </div>
+            <div class="icon-wrapper" title="PyTorch">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" class="tech-icon" alt="PyTorch">
+              <span>PyTorch</span>
+            </div>
+            <div class="icon-wrapper" title="OpenCV">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" class="tech-icon" alt="OpenCV">
+              <span>OpenCV</span>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>  
+
+  <!-- Projects -->
+  <section id="projects" class="content-section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="project-tabs">
+        <button class="tab-button active" data-category="all">All</button>
+        <button class="tab-button" data-category="ai">AI/ML</button>
+        <button class="tab-button" data-category="app">Apps</button>
+        <button class="tab-button" data-category="iot">IoT</button>
+        <button class="tab-button" data-category="system">System</button>
+      </div>
+
+      <div class="projects">
+
+        <!-- Automated BSE Corporate Announcement Extractor -->
+        <div class="project-card" data-category="system">
+          <i class="fa fa-database project-icon"></i>
+          <h3>Automated BSE Corporate Announcement Extractor</h3>
+          <p>
+            Automated retrieval of 4000+ daily BSE announcements using Python, Selenium, BS4 & API pipelines with
+            95% merge accuracy and Tkinter monitoring UI.
+          </p>
+        </div>
+
+        <!-- LLaVA Scene Description -->
+        <div class="project-card" data-category="ai">
+          <i class="fa fa-eye project-icon"></i>
+          <h3>Context-Aware Multimodal Scene Description (LLaVA)</h3>
+          <p>
+            Real-time assistive AI using YOLOv8 + LLaVA, improving caption accuracy by 32% and inference time by 45%
+            with memory-augmented processing.
+          </p>
+        </div>
+
+        <!-- iTrack LSTM -->
+        <div class="project-card" data-category="ai">
+          <i class="fa fa-user project-icon"></i>
+          <h3>iTrack – LSTM-Based Attention Monitoring</h3>
+          <p>
+            Real-time attention classifier using gaze ratios & EAR with 90% accuracy and 38% faster inference, enabling
+            productivity enhancement through distraction tracking.
+          </p>
+        </div>
+
+        <div class="project-card" data-category="ai">
+          <i class="fa fa-eye project-icon"></i>
+          <h3>SwapShield - Deepfake Detection</h3>
+          <p>AI-based face-swap deepfake detection using CNN + RNN architectures with frame-wise analysis.</p>
+        </div>
+  
+        <div class="project-card" data-category="app">
+          <i class="fa fa-tasks project-icon"></i>
+          <h3>Recursive Task Manager</h3>
+          <p>React Native app with SQLite supporting admin assignment, progress tracking, verification & deadlines.</p>
+        </div>
+  
+        <div class="project-card" data-category="ai">
+          <i class="fa fa-smile-o project-icon"></i>
+          <h3>Multimodal Emotion Recognition</h3>
+          <p>Real-time facial + audio emotion detection using CNNs with live visualization and emotion charts.</p>
+        </div>
+  
+  
+        <div class="project-card" data-category="iot">
+          <i class="fa fa-home project-icon"></i>
+          <h3>Home Security System</h3>
+          <p>Multilayered home security system using Arduino, fingerprint, OTP, and GSM alerts for real-time safety.</p>
+        </div>
+  
+        <div class="project-card" data-category="iot">
+          <i class="fa fa-car project-icon"></i>
+          <h3>Car Parking Management System</h3>
+          <p>FASTag-based system for parking automation with real-time updates, entry/exit automation, and fair billing.</p>
+        </div>
+
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <h2>Experience</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Data Analyst Intern</h3>
+            <p>Tydturns Analytics Limited, Chennai<br>
+              <span class="date">Jun 2025 – Present</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>AI/ML Intern</h3>
+            <p>4i Apps Solutions Pvt. Ltd.<br>
+              <span class="date">Jun 2024 – Jul 2024</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Student Council Member</h3>
+            <p>VIT Chennai</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Lead – Photography Team</h3>
+            <p>Vibrance 2024 – 40+ event coverage</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="education-section">
+    <div class="container">
+      <h2>Education</h2>
+
+      <div class="education-cards">
+
+        <div class="education-card">
+          <i class="fa fa-university icon"></i>
+          <h3>VIT Chennai</h3>
+          <p>B.Tech CSE<br><span class="date">2022 – 2026</span><br>CGPA: 8.38</p>
+        </div>
+
+        <div class="education-card">
+          <i class="fa fa-book icon"></i>
+          <h3>GTA Vidya Mandir</h3>
+          <p>CBSE - 12th Grade<br><span class="date">2021 – 2022</span><br>Percentage: 91.2%</p></p>
+        </div>
+
+        <div class="education-card">
+          <i class="fa fa-book icon"></i>
+          <h3>GTA Vidya Mandir</h3>
+          <p>CBSE - 10th Grade<br><span class="date">2021 – 2022</span><br>Percentage: 91.8%</p></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </div>
+
+    <div class="social-container">
+      <ul class="social-icons">
+        <li><a href="https://www.instagram.com/ikishore.28/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://github.com/Kishore2808"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/kishore-kumar-7447932b5"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+
+    <p>&copy; 2025 R Kishore Kumar</p>
+  </footer>
+
+  <button onclick="scrollToTop()" id="goTopBtn" title="Go to Top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+</body>
+</html>
